@@ -1,0 +1,5 @@
+### Получение списка доступных товаров на складе
+GET http://localhost:8000/api/getRemainingProducts?warehouse_uuid=af5fc7cd-afb0-43f8-a9d2-ce532512b2ac HTTP/1.1
+
+### Получение списка доступных товаров на складе (с ошибкой)
+GET http://localhost:8000/api/getRemainingProducts HTTP/1.1

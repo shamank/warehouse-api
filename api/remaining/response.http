@@ -1,0 +1,46 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+
+[
+  {
+    "name": "product1",
+    "size": "10",
+    "code": "123",
+    "quantity": 15
+  },
+  {
+    "name": "product2",
+    "size": "20",
+    "code": "456",
+    "quantity": 25
+  },
+  {
+    "name": "product3",
+    "size": "30",
+    "code": "789",
+    "quantity": 35
+  },
+  {
+    "name": "product4",
+    "size": "40",
+    "code": "987",
+    "quantity": 44
+  }
+]
+
+
+###
+
+HTTP/1.1 400 Bad Request
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+
+
+{
+  "error": "warehouse_uuid is required"
+}
